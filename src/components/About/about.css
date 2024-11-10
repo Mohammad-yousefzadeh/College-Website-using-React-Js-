@@ -1,0 +1,34 @@
+.about-left img {
+    width: 434px;
+    border-radius: 20px;
+}
+
+.about-left{
+    position: relative;
+   
+}
+
+.about-play-icon{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.about-play-icon:hover{
+    opacity: 1;
+}
+
+@media (max-width : 800px) {
+    .about-left img {
+        width: 90%;
+    }
+}

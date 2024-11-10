@@ -1,0 +1,22 @@
+.video{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    video{
+        width: 90%;
+        max-width: 1000px;
+        height: auto;
+    }
+}
+
+.hide-video{
+    display: none;
+}

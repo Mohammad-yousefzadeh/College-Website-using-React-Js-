@@ -1,0 +1,25 @@
+.campus img{
+    width: 270px;
+    border-radius: 17px;
+}
+
+.campus-btn{
+    padding: 13px 19px;
+    font-weight: 600;
+    background-color: rgb(40, 108, 255);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+@media (max-width : 1188px) {
+    .campus img{
+        width: 230px;
+    }
+}
+
+@media (max-width : 870px) {
+    .campus img{
+        width: 270px;
+    }
+}

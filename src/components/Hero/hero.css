@@ -1,0 +1,38 @@
+.hero-background{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 10, 85, 0.7) , rgba(8,0,58,0.7)) , url(https://images.unsplash.com/photo-1542019886894-8346ec5e3e4b?q=80&w=1835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-btn{
+    padding: 12px 18px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 25px;
+    border: none;
+}
+
+#hero-h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+@media (max-width : 900px){
+    #hero-h1{
+        font-size: 40px;
+    }
+
+    .hero-background p{
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width : 400px){
+    #hero-h1{
+        font-size: 32px;
+    }
+}

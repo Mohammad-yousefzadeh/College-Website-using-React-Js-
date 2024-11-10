@@ -1,0 +1,43 @@
+.displaying-images img{
+    width: 310px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.displaying-images{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.params-icons{
+    font-size: 65px;
+}
+
+.params-icon-box{
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.params-icon-box:hover{
+    padding-top: 0px;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media (max-width : 400px) {
+    .displaying-images img{
+        width: 265px;
+    }
+}
